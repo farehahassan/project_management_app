@@ -66,7 +66,9 @@ class OnboardingScreen extends StatelessWidget {
               height: 10.h,
             ),
             TextButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.toNamed(AppRoutes.loginScreen);
+              },
               child: Text(
                 "Already have an account?",
                 style: ATextStyles.buttonText.copyWith(

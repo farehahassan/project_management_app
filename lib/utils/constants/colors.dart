@@ -6,7 +6,7 @@ class AColors {
   AColors._();
 
 //App Basic Colors
-  static const Color primary = Color(0xffD339A9);
+  static const Color primary = Colors.blue;
   static const Color secondary = Color.fromRGBO(211, 57, 169, 0.12);
   static const Color accent = Color(0xFFA1FEFE);
 

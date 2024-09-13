@@ -1,4 +1,6 @@
+import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
+import 'package:project_management_app/features/Auth/login/views/login_screen.dart';
 import 'package:project_management_app/features/Auth/signup/views/signup_screen.dart';
 import 'package:project_management_app/features/Home/views/home_screen.dart';
 import 'package:project_management_app/features/Onboarding/views/onboarding.dart';
@@ -18,7 +20,13 @@ class GetAppRoute {
         name: AppRoutes.signupScreen,
         page: () => SignupScreen(),
         transition: Transition.rightToLeft,
-        transitionDuration: const Duration(seconds: 1),
+        transitionDuration: const Duration(milliseconds: 400),
+      ),
+      GetPage(
+        name: AppRoutes.loginScreen,
+        page: () => LoginScreen(),
+        transition: Transition.downToUp,
+        transitionDuration: const Duration(milliseconds: 400),
       ),
     ];
   }

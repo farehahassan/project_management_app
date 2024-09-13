@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:project_management_app/common/styles/text_styles.dart';
+import 'package:project_management_app/utils/constants/colors.dart';
 
 class CustomButton extends StatelessWidget {
   final String buttonText;
@@ -19,7 +20,7 @@ class CustomButton extends StatelessWidget {
         width: double.infinity.w,
         height: 60.h,
         decoration: BoxDecoration(
-          color: Colors.blue,
+          color: AColors.primary,
           borderRadius: BorderRadius.circular(
             30.sp,
           ),

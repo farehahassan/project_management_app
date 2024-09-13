@@ -15,7 +15,7 @@ class OnboardingController extends GetxController {
   }
 
   void _startAutoScroll() {
-    timer = Timer.periodic(Duration(seconds: 3), (Timer timer) {
+    timer = Timer.periodic(Duration(seconds: 2), (Timer timer) {
       if (currentPage.value < 2) {
         currentPage.value++;
       } else {
