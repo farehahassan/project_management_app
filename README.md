@@ -1,6 +1,3 @@
-Here's an enhanced version of your README with added icons and engaging text to make it more informative and visually appealing:
-
----
 
 # 📋 Project Management Application
 
@@ -57,6 +54,3 @@ This Flutter-based **Project Management App** is designed to simplify and stream
 ## ⭐ Support
 If this project helps you in any way, don't forget to give it a **star** on GitHub! Your support helps in continuous development and improvements.
 
----
-
-This version includes icons and additional engaging text to provide more clarity and improve the readability for users. Let me know if you'd like to tweak anything further!
