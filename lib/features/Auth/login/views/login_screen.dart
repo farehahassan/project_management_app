@@ -178,10 +178,10 @@ class LoginScreen extends StatelessWidget {
                                                         inputType: TextInputType
                                                             .emailAddress,
                                                         controller: controller
-                                                            .forgotPassController
+                                                            .newPassController
                                                             .value,
                                                         hintText:
-                                                            "New Password",
+                                                            "Enter New Password",
                                                         suffixicon: IconlyLight
                                                             .tick_square,
                                                       ),
@@ -189,15 +189,16 @@ class LoginScreen extends StatelessWidget {
                                                         height: 20.h,
                                                       ),
                                                       CustomTextfield(
-                                                        fieldName: "Password",
+                                                        fieldName:
+                                                            "Confirm Password",
                                                         icon: IconlyLight.lock,
                                                         inputType: TextInputType
                                                             .emailAddress,
                                                         controller: controller
-                                                            .forgotPassController
+                                                            .confirmPasswordController
                                                             .value,
                                                         hintText:
-                                                            "Confirm Password",
+                                                            "Enter Confirm Password",
                                                         suffixicon: IconlyLight
                                                             .tick_square,
                                                       ),
@@ -205,9 +206,13 @@ class LoginScreen extends StatelessWidget {
                                                         height: 30.h,
                                                       ),
                                                       CustomButton(
-                                                          buttonText:
-                                                              "Change Password",
-                                                          onPressed: () {}),
+                                                        buttonText:
+                                                            "Change Password",
+                                                        onPressed: () {
+                                                          Get.toNamed(AppRoutes
+                                                              .otpScreen);
+                                                        },
+                                                      ),
                                                     ],
                                                   ),
                                                 ),
@@ -256,7 +261,9 @@ class LoginScreen extends StatelessWidget {
                 ),
                 CustomButton(
                   buttonText: "Log In",
-                  onPressed: () {},
+                  onPressed: () {
+                    Get.toNamed(AppRoutes.homePage);
+                  },
                 ),
                 SizedBox(
                   height: 30.h,

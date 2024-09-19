@@ -15,6 +15,14 @@ class ATextStyles {
 
     // letterSpacing: 0.56,
   );
+  static TextStyle whiteHeading = TextStyle(
+    fontSize: 22.0.sp,
+    fontWeight: FontWeight.w600,
+    fontFamily: _outfitFont,
+    color: AColors.white,
+
+    // letterSpacing: 0.56,
+  );
   static TextStyle subtitle = TextStyle(
     fontSize: 13.0.sp,
     fontWeight: FontWeight.w400,

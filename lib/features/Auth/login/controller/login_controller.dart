@@ -5,6 +5,8 @@ class LoginController extends GetxController {
   var emailController = TextEditingController().obs;
   var passwordController = TextEditingController().obs;
   var forgotPassController = TextEditingController().obs;
+  var newPassController = TextEditingController().obs;
+  var confirmPasswordController = TextEditingController().obs;
 
   RxString emailError = ''.obs;
   RxString passwordError = ''.obs;

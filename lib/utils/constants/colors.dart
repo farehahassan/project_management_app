@@ -8,7 +8,8 @@ class AColors {
 //App Basic Colors
   static const Color primary = Colors.blue;
   static const Color secondary = Color.fromRGBO(211, 57, 169, 0.12);
-  static const Color accent = Color(0xFFA1FEFE);
+  static const Color accent = Color.fromARGB(255, 174, 200, 240);
+  static const Color darkbg = Color.fromARGB(255, 6, 19, 58);
 
   //Text Colors
   static const Color textPrimary = Color(0xFF333333);
