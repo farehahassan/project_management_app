@@ -1,16 +1,45 @@
-# project_management_app
+Here's an improved version of your README file with the requested structure and details:
 
-A new Flutter project.
+---
 
-## Getting Started
+# Project Management Application
 
-This project is a starting point for a Flutter application.
+## Description
+This is a Flutter project for a project management application. Currently, the app includes basic authentication functionality.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Screens
+- **Login Screen**
+- **Signup Screen**
+- **Forgot Password Screen**
+- **New Password Screen**
+- **Verification Screen**
+- **User Update Screen**
+- **Workspace Screen** (in progress)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Additional Features
+- **Responsive Design**
+- **Custom Widgets**
+- **Themes and Custom Styles**
+- **Constants Files**:
+  - Colors
+  - Text
+  - Images
+  - SVGs
+  - Dimensions
+- **Routing & Navigation**
+- **State Management**: Using **GetX**
+
+## Screenshots
+(Place screenshots of your app here)
+
+## Follow me on
+- [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile)
+- [Instagram](https://www.instagram.com/your-instagram-profile)
+
+If you like this project, don't forget to ⭐ it!
+
+---
+
+Let me know if you need further edits!
